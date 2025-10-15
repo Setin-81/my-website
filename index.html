@@ -6,32 +6,101 @@
     <title>Setin Yazdanian</title>
     <style>
     p {
-      font-weight: 700;
+      font-weight: 900;
       margin: 0;
     }
 
     li {
       list-style: none;
+      font-weight: 1000;
     }
 
     .container {
-      padding: 20px;
-      background-color: rgb(31, 50, 90);
-      display: flex;
-      gap: 30px;
+      padding: 0px;
+      border: 5px solid rgb(83, 83, 110);
+      background-color: rgb(153, 183, 247);
+      display: inline-flex;
+      flex-direction: row;
+      flex-basis: 100px;
+      gap: 0px;
     }
+
+    .menu {
+      padding: 30px;
+      border: 5px solid rgb(83, 83, 110);
+      background-color: rgb(31, 50, 90);
+      display: inline-flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+
+    .about {
+      padding: 30px;
+      border: 5px solid rgb(83, 83, 110);
+      background-color: #721917;
+      display: inline-flex;
+      flex-direction: row;
+      gap: 0px;
+     }
+
+    .contact {
+      padding: 30px;
+      border: 5px solid rgb(83, 83, 110);
+      background-color: #677217;
+      display: inline-flex;
+      flex-direction: row;
+      gap: 0px;
+     }
+
+    .project {
+      padding: 30px;
+      border: 5px solid rgb(83, 83, 110);
+      background-color: #27798f;
+      display: inline-flex;
+      flex-direction: row;
+      gap: 0px;
+    }
+
+    .projects {
+      padding: 30px;
+      border: 5px solid rgb(83, 83, 110);
+      background-color: #72278f;
+      display: inline-flex;
+      flex-direction: row;
+      gap: 0px;   
+    }
+
+    .publish {
+      padding: 30px;
+      border: 5px solid rgb(83, 83, 110);
+      background-color: #4e219c;
+      display: inline-flex;
+      flex-direction: row;
+      gap: 0px;    
+    }
+    
   </style>
 </head>
 <body>
-  <div class="container">
+<div class="container">
+  <div class="menu">
     <p>Menu</p>
-
-    <li><a href="./about.html">About</a></li>
-    <li><a href="./contact.html">Contact</li>
-    <li><a href="./project.html">Project</li>
-    <li><a href="./projects.html">Projects</li>
-    <li><a href="./publish.html">Publish</li>
-
   </div>
+  <div class="about"> 
+    <li><a href="./about.html">About</a></li>
+  </div>
+  <div class="contact">
+    <li><a href="./contact.html">Contact</li>
+  </div>
+  <div class="project">
+    <li><a href="./project.html">Project</li>
+  </div>
+  <div class="projects">
+   <li><a href="./projects.html">Projects</li> 
+  </div>
+  <div class="publish"> 
+    <li><a href="./publish.html">Publish</li>
+  </div> 
+</div>
 </body>
 </html>
